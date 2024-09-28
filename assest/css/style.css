@@ -1,0 +1,36 @@
+.parent{
+    width: 1200px;
+    height: 600px;
+    border: 2px solid;
+    background-color: black;
+    margin: auto;
+    display: flex;
+}
+.child{
+    width: 200px;
+    height: 250px ;
+    background-color: red;
+    margin: auto;
+}
+.child1{
+    width: 200px;
+    height: 250px ;
+    background-color: yellowgreen;
+    margin: auto;
+}
+.child2{
+    width: 200px;
+    height: 250px ;
+    background-color: blue;
+    margin: auto;
+}
+.child3{
+    width: 200px;
+    height: 250px ;
+    background-color: green;
+    margin: auto;
+}
+.child:hover , .child1:hover, .child2:hover, .child3:hover {
+    width: 250px;
+    height: 300px ;
+}
